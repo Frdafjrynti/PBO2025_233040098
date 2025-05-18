@@ -5,6 +5,7 @@ public class Kucing extends Hewan implements Bunyi{
     public Kucing(String nama, int umur, String ras) {
         this.ras = ras;
         super(nama, umur);
+        //tes
     }
 
     public String getRas() {
