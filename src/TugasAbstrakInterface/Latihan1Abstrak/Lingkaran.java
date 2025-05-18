@@ -1,4 +1,4 @@
-package KelasAbstrakInterface.Latihan1Abstrak;
+package TugasAbstrakInterface.Latihan1Abstrak;
 
 public class Lingkaran extends Bentuk {
     public Lingkaran(int jari2){

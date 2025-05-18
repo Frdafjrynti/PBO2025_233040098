@@ -1,4 +1,4 @@
-package KelasAbstrakInterface.Tugas;
+package TugasAbstrakInterface.Tugas;
 
 public class Anjing extends Hewan implements Bunyi{
     private boolean biasaDilatih;

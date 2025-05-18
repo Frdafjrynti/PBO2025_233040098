@@ -1,4 +1,4 @@
-package KelasAbstrakInterface.Tugas;
+package TugasAbstrakInterface.Tugas;
 
 public class Kucing extends Hewan implements Bunyi{
     private String ras;

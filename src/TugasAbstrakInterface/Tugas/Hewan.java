@@ -1,4 +1,4 @@
-package KelasAbstrakInterface.Tugas;
+package TugasAbstrakInterface.Tugas;
 
 abstract class Hewan {
     protected String nama;

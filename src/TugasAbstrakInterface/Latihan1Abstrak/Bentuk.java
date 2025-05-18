@@ -1,4 +1,4 @@
-package KelasAbstrakInterface.Latihan1Abstrak;
+package TugasAbstrakInterface.Latihan1Abstrak;
 
 public abstract class Bentuk {
     protected double PHI = 3.14;

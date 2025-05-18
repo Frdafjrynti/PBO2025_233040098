@@ -1,4 +1,4 @@
-package KelasAbstrakInterface.Tugas;
+package TugasAbstrakInterface.Tugas;
 
 public class HewanMain {
     public static void main(String[] args) {

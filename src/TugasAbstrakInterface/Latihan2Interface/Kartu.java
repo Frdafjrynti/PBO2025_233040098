@@ -1,4 +1,4 @@
-package KelasAbstrakInterface.Latihan2Interface;
+package TugasAbstrakInterface.Latihan2Interface;
 
 public interface Kartu {
     public boolean otentikasi(String pin);

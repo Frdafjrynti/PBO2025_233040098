@@ -1,4 +1,4 @@
-package KelasAbstrakInterface.Latihan1Abstrak;
+package TugasAbstrakInterface.Latihan1Abstrak;
 
 public class BentukMain {
     public static void main(String[] args) {

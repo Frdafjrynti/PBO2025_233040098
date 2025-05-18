@@ -1,4 +1,4 @@
-package KelasAbstrakInterface.Latihan2Interface;
+package TugasAbstrakInterface.Latihan2Interface;
 
 public class KartuElektronik implements Kartu{
     // method abstrak yang harus diimplementasikan

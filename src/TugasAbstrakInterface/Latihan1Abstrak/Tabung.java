@@ -1,4 +1,4 @@
-package KelasAbstrakInterface.Latihan1Abstrak;
+package TugasAbstrakInterface.Latihan1Abstrak;
 
 public class Tabung extends Bentuk {
     private int tinggi;

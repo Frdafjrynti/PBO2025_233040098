@@ -1,4 +1,4 @@
-package KelasAbstrakInterface.Latihan2Interface;
+package TugasAbstrakInterface.Latihan2Interface;
 
 public class InterfaceMain {
     public static void main(String[] args) {
