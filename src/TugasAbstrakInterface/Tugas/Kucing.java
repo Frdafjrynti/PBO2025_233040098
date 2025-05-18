@@ -1,11 +1,11 @@
 package TugasAbstrakInterface.Tugas;
 
-public class Kucing extends Hewan implements Bunyi{
+public class Kucing extends Hewan implements Bunyi {
     private String ras;
+
     public Kucing(String nama, int umur, String ras) {
-        this.ras = ras;
         super(nama, umur);
-        //tes
+        this.ras = ras;
     }
 
     public String getRas() {
