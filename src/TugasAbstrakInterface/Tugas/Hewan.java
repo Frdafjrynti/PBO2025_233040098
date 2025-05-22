@@ -1,9 +1,11 @@
 package TugasAbstrakInterface.Tugas;
 
+// superclass atau kelas induk bagi berbagai jenis hewan lainnya dalam suatu program
 abstract class Hewan {
-    protected String nama;
+    protected String nama; //atribut modifier proctected agar bisa diakses langsung oleh subclass
     protected int umur;
 
+    // konstruktor untuk mengininisialisasi objek ddibuat melalui subclass
     public Hewan(String nama, int umur) {
         this.nama = nama;
         this.umur = umur;
@@ -17,7 +19,7 @@ abstract class Hewan {
         return umur;
     }
 
-    // Method abstrak yang harus diimplementasikan
+    // Method abstrak yang harus diimplementasikan (mengembalikan jenis hewan)
     public abstract String jenisHewan();
 
     // Method konkrit yang bisa diwariskan
