@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.text.DecimalFormat;
 
 public class StudiKasus extends JFrame implements ActionListener {
     private JTextField textField1, textField2;
@@ -57,9 +58,9 @@ public class StudiKasus extends JFrame implements ActionListener {
                     return;
                 }
 
-                // Konversi string ke double
-                double angka1 = Double.parseDouble(input1);
-                double angka2 = Double.parseDouble(input2);
+                // Konversi string ke double (ganti koma jika ada)
+                double angka1 = Double.parseDouble(input1.replace(',', '.'));
+                double angka2 = Double.parseDouble(input2.replace(',', '.'));
 
                 // Melakukan penjumlahan
                 double hasil = angka1 + angka2;
@@ -72,9 +73,11 @@ public class StudiKasus extends JFrame implements ActionListener {
                     message = String.format("Hasil Penjumlahan: %d", (long) hasil);
                 } else {
                     // Jika tidak, tampilkan sebagai desimal
-                    message = String.format("Hasil Penjumlahan: %s", hasil);
+                    DecimalFormat df = new DecimalFormat("0.###"); // memperbaiki format desimal agar rapi
+                    message = "Hasil Penjumlahan: " + df.format(hasil);
                 }
 
+                // Tampilkan pesan hasil
                 JOptionPane.showMessageDialog(this,
                         message,
                         "Hasil Penjumlahan",
